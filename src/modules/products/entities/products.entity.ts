@@ -25,4 +25,8 @@ export class Products {
     comment: '상품 등록 일시',
   })
   createdAt: Date;
+
+  addAmount(amount: number) {
+    this.amount += amount;
+  }
 }
